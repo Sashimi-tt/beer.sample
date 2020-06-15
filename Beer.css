@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	font-family: Gulim;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* Main design */
+.container {
+	text-align: center;
+}
+
+.main {
+	padding: 100px 0 140px 0;
+	background-image: url(img/beertop.jpg);
+	background-size: cover; 
+	color: white;
+}
+.main h2 {
+	font-size: 80px;
+	opacity: 0.6;
+	padding: 100px 0 0 0;
+}
+
+.main p {
+	opacity: 0.9;
+	background-color: rgba(0, 0, 0, 0.4);
+	background-size: cover;
+}
+
+
+/* Header design */
+header {
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100px;
+	width: 100%;
+	/* position */
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.sashimi-logo {
+	width: 150px;
+	float: left;
+	padding: 25px 20px 0 20px;
+}
+
+.header-list {
+	float: left;
+	padding: 35px 0 30px 40px;
+}
+
+.header-list a {
+	color: white;
+	font-size: 20px;
+}
+
+
+/* contents design */
+.contents {
+	background-color: lavender;
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+
+.contents-info h3 {
+	font-size: 40px;
+}
+
+
+/* footer design */
+footer {
+	background-color: #202020;
+	height: 80px;
+}
+
+.footer-list {
+	text-align: right;
+	padding-right: 30px;
+}
+
+.footer-list a {
+	color: white;
+}
