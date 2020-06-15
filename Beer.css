@@ -15,7 +15,7 @@ a {
 
 .main {
 	padding: 100px 0 140px 0;
-	background-image: url(img/beertop.jpg);
+	background-image: url(beertop.jpg);
 	background-size: cover; 
 	color: white;
 }
